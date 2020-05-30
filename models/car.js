@@ -1,0 +1,1 @@
+exports.car = { car: String };

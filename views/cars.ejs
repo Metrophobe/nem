@@ -1,0 +1,10 @@
+<div class="content"></div>
+  <ul id="cars">
+    <% for(let i=0 ; i < data.length ; i++) {%>
+    <li id=<%= data[i].id  %>><spam><%= data[i].car %></spam></li>
+    <%}%>
+  </ul>
+  <br />
+    <input type="text" id="car" placeholder="add new car name..." />
+    <button class="add">Add Car</button>
+</div>

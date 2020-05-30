@@ -1,0 +1,34 @@
+{
+  "name": "nem",
+  "version": "1.0.0",
+  "description": "node express mongo boilerplate application to help beginners familiarise themselves with crud functionality and mongo interaction ",
+  "main": "app.js",
+  "scripts": {
+    "me": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrophobe/nem.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "express",
+    "node",
+    "ejs"
+  ],
+  "author": "metrophobe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metrophobe/nem/issues"
+  },
+  "homepage": "https://github.com/metrophobe/nem#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.9.16"
+  }
+}
